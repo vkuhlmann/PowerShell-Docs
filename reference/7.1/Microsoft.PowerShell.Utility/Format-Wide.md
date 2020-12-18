@@ -307,7 +307,7 @@ You can pipe any object to `Format-Wide`.
 You can also refer to `Format-Wide` by its built-in alias, `fw`. For more information, see [about_Aliases](../Microsoft.PowerShell.Core/About/about_Aliases.md).
 
 The **GroupBy** parameter assumes that the objects are sorted. Use `Sort-Object` before using
-`Format-Custom` to group the objects.
+`Format-Wide` to group the objects.
 
 The **View** parameter lets you specify an alternate format for the table. You can use the views
 defined in the `*.format.PS1XML` files in the PowerShell directory or you can create your own views
